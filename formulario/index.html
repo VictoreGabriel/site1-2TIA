@@ -1,0 +1,61 @@
+<!DOCTYPE  html>
+<html lang="pt-br">
+  <head>
+    <link rel="stylesheet" href="style.css">
+     <title>datamine</title>
+  </head>
+  <body>
+      <header>
+          <nav>
+              <a class="logo" href="../index.html">Yugioh Duel Links</a>
+              <div class="mobile-menu">
+                  <div class="line1"></div>
+                   <div class="line2"></div>
+                    <div class="line3"></div>
+              </div>
+              <ul class="nav-list">
+
+                  <li><a href="../tier/index.html">tier list</a></li>
+                  <li><a href="../decks/index.html">decks</a></li>
+                  <li><a href="../guia/index.html">guia para iniciantes</li>
+                  <li><a href="index.html">formulário</a></li>
+              </ul>
+          </nav>
+          </header>
+
+
+
+<div id="color">
+ <form class="formulario" method="post">
+        <p> Entre em contato! Envie uma mensagem preenchendo o formulário!</p>
+
+        <div class="field"> <!--escolher outro nome para essa class-->
+            <label for="nome">Seu Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite o seu nome*" required>
+        </div>
+
+        <div class="field"> <!--escolher um outro intem pra colocar aqui, telefone é so um exemplo. Ou então deixa apenas duas opções-->
+            <label for="telefone">Seu Telefone:</label>
+            <input type="text" id="telefone" name="telefone" placeholder="Digite seu Telefone">
+        </div>
+
+        <div class="field">
+            <label for="email">Seu E-Mail:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu E-Mail*" required>
+        </div>
+        <div class="caixa">
+            <span>Deseja receber nossas novidades?</span>
+            <input type="radio" name="novidades" id="sim" value="sim" checked><label for="sim">Sim</label>
+            <input type="radio" name="novidades" id="nao" value="nao"><label for="nao">Não</label>
+        </div>
+        <div class="field">
+            <label for="mensagem">Sua mensagem:</label>
+            <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required></textarea>
+        </div>
+
+        <input type="submit" name="acao" value="Enviar">
+    </form>
+    <a href="../trabalho/index.html"></a>
+</div>
+</body>
+</html>
